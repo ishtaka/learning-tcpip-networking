@@ -14,6 +14,7 @@ RUN apt-get update \
     wget \
     gawk \
     dnsutils \
-    procps
+    procps \
+    udhcpc
 
 WORKDIR /home/tcpip
